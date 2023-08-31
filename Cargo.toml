@@ -15,6 +15,7 @@ name = "zero2prod"
 
 [dependencies]
 actix-web = "4.4.0"
+chrono = "0.4"
 config = "0.13.3"
 serde = { version = "1", features = ["derive"] }
 sqlx = { version = "0.7.1", features = [
@@ -25,6 +26,7 @@ sqlx = { version = "0.7.1", features = [
     "chrono",
     "migrate"
 ] }
+uuid = { version = "1.4.1", features = ["v4"] }
 
 [dev-dependencies]
 actix-rt = "2.9.0"
